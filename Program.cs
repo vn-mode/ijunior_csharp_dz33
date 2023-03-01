@@ -1,9 +1,9 @@
 ﻿Dictionary<string, string> dictionary = new Dictionary<string, string>();
 dictionary.Add("яблоко", "это фрукт");
 dictionary.Add("кошка", "это животное");
-findTheMeaningWord(dictionary);
+FindMeaningWord(dictionary);
 
-static void findTheMeaningWord(Dictionary<string, string> dictionary)
+static void FindMeaningWord(Dictionary<string, string> dictionary)
 {
     string userInput = Console.ReadLine().ToLower();
 
